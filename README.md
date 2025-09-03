@@ -34,3 +34,25 @@ Cold-email-gen/
 git clone https://github.com/your-username/Cold-email-gen.git
 cd Cold-email-gen
 
+2️⃣Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Set environment variable
+
+On Linux/Mac:
+
+export GROQ_API_KEY=your_api_key_here
+
+
+On Windows PowerShell:
+
+setx GROQ_API_KEY "your_api_key_here"
+
+5️⃣ Run the app
+streamlit run app.py
+
