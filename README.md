@@ -23,3 +23,14 @@ Cold-email-gen/
 │── chroma_setup.py # Script to process resume & create ChromaDB
 │── requirements.txt # Dependencies
 │── README.md # Documentation
+
+
+---
+
+## 🔧 Installation (Local Setup)
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/your-username/Cold-email-gen.git
+cd Cold-email-gen
+
