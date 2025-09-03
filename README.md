@@ -18,3 +18,8 @@ It uses:
 ---
 
 ## 📂 Project Structure
+Cold-email-gen/
+│── app.py # Main Streamlit app
+│── chroma_setup.py # Script to process resume & create ChromaDB
+│── requirements.txt # Dependencies
+│── README.md # Documentation
